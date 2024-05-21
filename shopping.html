@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="emerald">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ef6e01e8ad.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="output.css">
+    <title>Document</title>
+</head>
+<body class="font-montserrat">
+    <div class="container w-screen m-auto">
+        <header class="grid grid-cols-1 m-3.5">
+            <h1 class="text-green-600 font-bold text-5xl">Products</h1>
+            <div class="shopping relative text-right">
+                <i class="fa-solid fa-bag-shopping text-4xl text-green-600 text-center hover:text-green-400"></i>
+                <span class="quantity bg-red-600 rounded-full flex justify-center items-center text-white absolute -top-5 left-full">0</span>
+            </div>
+        </header>
+
+        <div class="product-list grid grid-cols-3 gap-5 mt-10">
+        </div>
+        <!--Cart-->
+        <div class="card fixed top-0 left-full w-max bg-gray-300 border-purple-500 h-full">
+            <h1>Card</h1>
+            <ul class="listCard"></ul>
+            <div class="checkout">
+                <div class="total">0</div>
+                <div class="closeShopping">Close</div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="shop.js"></script>
+</body>
+</html>
